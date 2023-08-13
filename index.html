@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .txt{
+            font-family: Arial;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dummy Data</title>
+    <script>
+       const Primer_ape = [
+  "Garcia",
+  "Hernandez",
+  "Lopez",
+  "Martinez",
+  "Gonzalez",
+  "Rodriguez",
+  "Perez",
+  "Sanchez",
+  "Ramirez",
+  "Flores",
+  "Torres",
+  "Rivera",
+  "Gomez",
+  "Diaz",
+  "Reyes",
+  "Cruz",
+  "Morales",
+  "Ortega",
+  "Mendoza",
+  "Castillo",
+  "Chavez",
+  "Mendoza",
+  "Delgado",
+  "Vargas",
+  "Silva",
+  "Rojas",
+  "Guerrero",
+  "Estrada",
+  "Mejia",
+  "Ramos",
+  "Ortiz",
+  "Molina",
+  "Campos",
+  "Cortes",
+  "Guzman",
+  "Pena",
+  "Soto",
+  "Santos",
+  "Navarro",
+  "Mora",
+  "Herrera",
+  "Aguilar",
+  "Jimenez",
+  "Rios",
+  "Lara",
+  "Vazquez",
+  "Valdez",
+  "Vega",
+  "Miranda",
+  "Escobar",
+  "Montes",
+  "Luna",
+  "Leyva",
+  "Barrera",
+  "Castaneda",
+  "Rubio",
+  "Orozco",
+  "Arellano",
+  "Carrillo",
+  "Avila",
+  "Salas",
+  "Carrasco",
+  "Esparza",
+  "Ibarra",
+  "Benitez",
+  "Pacheco",
+  "Solis",
+  "Palacios",
+  "Escobedo",
+  "Quintero",
+  "Cervantes",
+  "Rangel",
+  "Calderon",
+  "Olvera",
+  "Tovar",
+  "Peralta",
+  "Serrano",
+  "Valencia",
+  "Uribe"
+];
+            const Segundo_Ape = [
+                "Smith",
+                "Johnson",
+                "Williams",
+                "Brown",
+                "Jones",
+                "Miller",
+                "Davis",
+                "Garcia",
+                "Rodriguez",
+                "Wilson",
+                "Martinez",
+                "Anderson",
+                "Taylor",
+                "Thomas",
+                "Hernandez",
+                "Moore",
+                "Martin",
+                "Jackson",
+                "Thompson",
+                "White",
+                "Lopez",
+                "Lee",
+                "Gonzalez",
+                "Harris",
+                "Clark",
+                "Lewis",
+                "Young",
+                "Walker",
+                "Hall",
+                "Allen",
+                "King",
+                "Wright",
+                "Scott",
+                "Green",
+                "Baker",
+                "Adams",
+                "Nelson",
+                "Hill",
+                "Ramirez",
+                "Campbell",
+                "Mitchell",
+                "Roberts",
+                "Carter",
+                "Phillips",
+                "Evans",
+                "Turner",
+                "Torres",
+                "Parker",
+                "Collins",
+                "Edwards",
+                "Stewart",
+                "Flores",
+                "Morris",
+                "Nguyen",
+                "Murphy",
+                "Cook",
+                "Rogers",
+                "Morgan",
+                "Peterson",
+                "Cooper",
+                "Reed",
+                "Bailey",
+                "Bell",
+                "Gomez",
+                "Kelly",
+                "Howard",
+                "Ward",
+                "Cox",
+                "Diaz",
+                "Richardson",
+                "Wood",
+                "Watson",
+                "Brooks",
+                "Bennett",
+                "Gray",
+                "James",];
+            const Primer_Nombre = [
+  "Sofia",
+  "Isabella",
+  "Valentina",
+  "Emma",
+  "Mia",
+  "Camila",
+  "Ximena",
+  "Valeria",
+  "Lucia",
+  "Ava",
+  "Mariana",
+  "Maria",
+  "Fernanda",
+  "Regina",
+  "Renata",
+  "Alejandra",
+  "Paula",
+  "Abril",
+  "Danna",
+  "Jimena",
+  "Julieta",
+  "Andrea",
+  "Ana",
+  "Sara",
+  "Victoria",
+  "Emily",
+  "Daniela",
+  "Gabriela",
+  "Natalia",
+  "Montserrat",
+  "Catalina",
+  "Ximena",
+  "Fatima",
+  "Paola",
+  "Luna",
+  "Monserrat",
+  "Antonia",
+  "Elena",
+  "Carolina",
+  "Bianca",
+  "angela",
+  "Rosa",
+  "Regina",
+  "Mariana",
+  "Clara",
+  "Maria Jose",
+  "Valery",
+  "Alexa",
+  "Allison",
+  "Jennifer",
+  "Zoe",
+  "Ana Sofia",
+  "Gael",
+  "Diego",
+  "Emiliano",
+  "Sebastian",
+  "Mateo",
+  "Daniel",
+  "Santiago",
+  "Benjamin",
+  "Samuel",
+  "Jesús",
+  "David",
+  "Alejandro",
+  "Jose",
+  "Eduardo",
+  "angel",
+  "Miguel",
+  "Luis",
+  "Carlos",
+  "Javier",
+  "Fernando",
+  "Jorge",
+  "Juan",
+  "Adrian",
+  "Martin",
+  "Andres",
+  "Leonardo",
+  "Joaquin",
+  "Hector",
+  "oscar",
+  "Ricardo",
+  "Isaac",
+  "Mario",
+  "Pedro",
+  "Raúl",
+  "Cristian",
+  "Luis angel"
+];
+            const Segundo_Nombre = [
+  "Alejandro",
+  "Maria",
+  "Fernanda",
+  "Jose",
+  "Sofia",
+  "Guadalupe",
+  "Manuel",
+  "Isabel",
+  "Miguel",
+  "Elena",
+  "Francisco",
+  "Victoria",
+  "Luis",
+  "Paula",
+  "Ricardo",
+  "Valentina",
+  "Javier",
+  "Andrea",
+  "Sebastian",
+  "Gabriela",
+  "Emilio",
+  "Camila",
+  "Eduardo",
+  "Lucia",
+  "Carlos",
+  "Ana",
+  "Daniel",
+  "Catalina",
+  "Pedro",
+  "Fatima",
+  "Mauricio",
+  "Ximena",
+  "Rafael",
+  "Valeria",
+  "Roberto",
+  "Renata",
+  "Arturo",
+  "Montserrat",
+  "Hugo",
+  "Abril",
+  "Jaime",
+  "Jimena",
+  "Mario",
+  "Julieta",
+  "Raúl",
+  "Bianca",
+  "Salvador",
+  "Abril",
+  "Alberto",
+  "Rosa",
+  "Gustavo",
+  "Maria Jose",
+  "Alejandra",
+  "Laura",
+  "Gonzalo",
+  "Adriana",
+  "Felipe",
+  "angela",
+  "Ignacio",
+  "Natalia",
+  "Lorenzo",
+  "Regina",
+  "Raquel",
+  "Sara",
+  "Vicente",
+  "Ximena",
+  "Agustin",
+  "Clara",
+  "alvaro",
+  "Carolina",
+  "Benjamin",
+  "Diana",
+  "Diego",
+  "Mariana",
+  "Ernesto",
+  "Paulina",
+  "Jorge",
+  "Valery",
+  "Josue",
+  "Ana Sofia",
+  "Cesar",
+  "Gabriela",
+  "Leonardo",
+  "Maria Fernanda",
+  "Raúl",
+  "Maria Jose",
+  "Victor",
+  "Maria Isabel"
+];
+            var salida = ""; 
+            var infoTabla = "";  
+        //Arreglo de nuermos para un futuro numero de telefono randoms
+        // const numeros = [0,1,2,3,4,5,6,7,8,9];
+            function generar_alumnos(){          
+
+                infoTabla = `DROP DATABASE IF EXISTS sistema_escolar; <br>
+                CREATE DATABASE IF NOT EXISTS sistema_escolar; <br> 
+                USE sistema_escolar; <br>  
+                CREATE TABLE IF NOT EXISTS \`alumnos\` (
+                \`matricula\` bigint(20) NOT NULL,
+                \`apellido_1\` varchar(50) DEFAULT NULL,
+                \`apellido_2\` varchar(50) DEFAULT NULL,
+                \`nombre\` varchar(50) DEFAULT NULL,
+                \`correo\` varchar(100) DEFAULT NULL,
+                \`celular\` varchar(14) DEFAULT NULL,
+                UNIQUE KEY \`matricula\` (\`matricula\`),
+                UNIQUE KEY \`correo\` (\`correo\`),
+                UNIQUE KEY \`celular\` (\`celular\`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci; <br>
+                INSERT INTO sistema_escolar.alumnos() VALUES<br>`;
+        
+            let a = '';
+            let num_al = 125000
+        for (let i = 0; i <=num_al; i++) {
+            i == num_al ? a=';' : a=','
+
+            // EXTRAPOLAR PARA MAS PLACER 
+            salida += `
+            ('${('0123456789'+i).slice(-6)}',
+             '${Primer_ape[Math.floor(Math.random()*76)]}',
+             '${Segundo_Ape[Math.floor(Math.random()*76)]}',
+             '${Primer_Nombre[Math.floor(Math.random()*76)]} 
+              ${Segundo_Nombre[Math.floor(Math.random()*76)]}',
+             '${('0123456789'+i).slice(-6)}@uthermosillo.edu.mx',
+             '66${('0123456789'+i).slice(-8)}')${a}<br>`
+            //CONCATENAR MALA PRACTICA :( 
+            // salida += " ('"+ ('123456789'+ i).slice(-6) + "', ' " 
+            // + Primer_ape[ Math.floor(Math.random()*76)] + " ', '" 
+            // + Segundo_Ape[ Math.floor(Math.random()*76)] + " ', '"
+            // + Primer_Nombre[ Math.floor(Math.random()*76)] + " "
+            // + Segundo_Nombre[ Math.floor(Math.random()*76)] + " ','"
+            // + ('123456789'+ i).slice(-6)+"@uthermosillo.edu.mx ', " 
+            // + "'"+('66' + ('123456789'+ i).slice(-8)) + "' ),"
+            // + "<br>";
+        }
+        // document.getElementById("id_del_p").innerHTML = salida;
+        document.getElementById("id_del_p").innerHTML = `${infoTabla}${salida}`;
+        // salida = salida.substring(0,salida.length-1)`;`;
+        }
+
+        function generarSql(){
+            const contenidoSinBR = `${infoTabla.replaceAll("<br>","\n")}${salida.replaceAll("<br>", "\n")}`;
+            var generar = document.createElement("a");
+            generar.setAttribute("href","data:text/plain;charset=utf-8," + encodeURIComponent(contenidoSinBR));
+            generar.setAttribute("download","alumnos.sql");
+            generar.style.display = "none";
+            document.body.appendChild(generar);
+            generar.click();
+            document.body.removeChild(generar);
+        }
+        function generarCSV(){
+            const caracteres = "'.();`"
+            const sinCaracteres = eliminarCaracteres(salida, caracteres);
+            const contenidoSinBR = sinCaracteres.replaceAll("<br>",' ');
+            const csvContent = "data:text/csv;charset=utf-8," + contenidoSinBR;
+            const enlace = document.createElement("a");
+            enlace.setAttribute("href", encodeURI(csvContent));
+            enlace.setAttribute("download", "alumnos.csv");
+            enlace.style.display = "none";
+            document.body.appendChild(enlace);
+            enlace.click();
+            document.body.removeChild(enlace);
+        }
+        function eliminarCaracteres (texto, caracteres){
+            const expresionRegular = new RegExp(`[${caracteres}]`, 'g');
+            return texto.replace(expresionRegular, '');
+        }
+
+        function exportar(){
+            alert("$mysql -u root -p < alumnos.sql;")
+        }
+    </script>
+</head>
+<body>
+    <div class="row" style="margin-left: 80px; margin-right: 80px;">
+        <div class="col-12" style="text-align: center;  border: 2px solid black;">
+            <p class="txt"><b>Actividad: 4 Dummy data con JS web.</b> <br>
+            La siguiente actividad genera 125 mil registros aleatorios con la siguiente estrctura, 
+            "Matricula, apellido paterno, apellido materno, nombres, correo electronico, celular." <br>
+            Tambien nos permite descargar el archivo SQL y CSV de dichos registros generados.</p>
+            <!-- <img src="logo.jpg" alt=""> -->
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12" style="text-align: center;">
+            <h1 class="txt">Plaza Pacheco Ismael Antonio IGDS 9-1</h1>
+        </div>
+    </div>
+    <center>
+    <button style="margin-top: 10px;" onclick="generar_alumnos()"><b class="txt">GENERAR ALUMNOS</b></button>
+    <button style="margin-top: 10px; margin-left: 10px" onclick="generarSql()"><b class="txt">GENERAR SQL</b></button>
+    <button style="margin-top: 10px; margin-left: 10px" onclick="generarCSV()"><b class="txt">GENERAR CSV</b></button>
+    <button style="margin-top: 10px; margin-left: 10px" onclick="exportar()"><b class="txt">EXPORTAR</b></button>
+    </center>
+    <p class="txt" id="id_del_p"></p>
+    
+</body>
+</html>
